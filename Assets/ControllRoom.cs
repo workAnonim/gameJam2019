@@ -31,7 +31,7 @@ public class ControllRoom : MonoBehaviour {
 		hero.transform.position=beginPosition;
 	}
 	public void TakeFlashLight(){
-		hero.GetComponent<HeroController> ().Hand.enabled = true;
+		//hero.GetComponent<HeroController> ().Hand.enabled = true;
 		flashLight.SetActive (false);
 		floor.SetActive (false);
 	}
